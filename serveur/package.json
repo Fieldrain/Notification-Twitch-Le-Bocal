@@ -1,21 +1,21 @@
 {
-  "name": "twitchalertfefe-api",
+  "name": "Notification-Twitch-Le-Bocal-Serveur",
   "version": "1.0.0",
-  "description": "Api permettant de récupérer le status du stream de Féfé",
+  "description": "Serveur permettant d'envoyer des notifications et de récupérer le status des stream de Colas Deotoons Féfé et Kenny",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/Fieldrain/twitchalertfefe-api.git"
+    "url": "git+https://github.com/Fieldrain/Notification-Twitch-Le-Bocal.git"
   },
   "author": "Fieldrain",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/Fieldrain/twitchalertfefe-api/issues"
+    "url": "https://github.com/Fieldrain/Notification-Twitch-Le-Bocal/issues"
   },
-  "homepage": "https://gitlab.com/Fieldrain/twitchalertfefe-api#readme",
+  "homepage": "https://github.com/Fieldrain/Notification-Twitch-Le-Bocal#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "cron": "^1.8.2",
