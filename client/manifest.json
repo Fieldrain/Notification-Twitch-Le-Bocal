@@ -1,0 +1,22 @@
+{
+    "name": "Alerte live du Bocal",
+    "description": "Vous prévient quand un résident du Bocal (Colas_Bim,Deotoons,Fefegg,KennyStream) passe en live sur Twitch!",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup" : "popup.html",
+      "default_icon": "/images/icon.png"
+    },
+    "icons": {
+      "16": "/images/icon/16_icon.png",
+      "32": "/images/icon/32_icon.png",
+      "48": "/images/icon/48_icon.png",
+      "128": "/images/icon/128_icon.png"
+    },
+    "permissions":[
+      "notifications"
+    ]
+  }

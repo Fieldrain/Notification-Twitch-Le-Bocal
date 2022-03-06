@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bocal Live Alerte</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="customIcons/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <input id="rad0" type="radio" name="rad" alt="Page Principale" checked>
+        <section>
+            <h1>Résidents du Bocal</h1>
+            <div class="card grid_card">
+                <a id="stream-url_main_colas_bim" href="https://www.twitch.tv/colas_bim" alt="Twitch/Vod Colas Bim" target="_blank"><img src="images/streamIcon/colas_bim.png" alt="Image Colas Bim" id="stream-profile_main_colas_bim" class="card__image"></a>
+                <a id="stream-url_main_deotoons" href="https://www.twitch.tv/deotoons" alt="Twitch/Vod Deotoons" target="_blank"><img src="images/streamIcon/deotoons.png" alt="Image Deotoons" id="stream-profile_main_deotoons" class="card__image"></a>
+                <a id="stream-url_main_fefegg" href="https://www.twitch.tv/fefegg" alt="Twitch/Vod Féfé" target="_blank"><img src="images/streamIcon/fefegg.png" alt="Image Féfé" id="stream-profile_main_fefegg" class="card__image"></a>
+                <a id="stream-url_main_kennystream" href="https://www.twitch.tv/kennystream" alt="Twitch/Vod KennyStream" target="_blank"><img src="images/streamIcon/kennystream.png" alt="Image KennyStream" id="stream-profile_main_kennystream" class="card__image"></a>
+            </div>
+            <button id="refresh" alt="Rafraîchir les informations"><i class="fa-solid fa-arrows-rotate"></i></button>
+            <label for="rad4" ><i class="fa fa-chevron-left"></i></label>
+            <label for="rad1" ><i class="fa fa-chevron-right"></i></label>
+        </section>
+        <input id="rad1" type="radio" name="rad" alt="Page Colas Bim">
+        <section>
+            <div class="card">
+                <a id="stream-url_colas_bim" href="https://www.twitch.tv/colas_bim" alt="Twitch/Vod Colas Bim" target="_blank"><img src="images/streamIcon/colas_bim.png" alt="Image Colas Bim" id="stream-profile_colas_bim" class="card__image"></a>
+                <p id="stream-title_colas_bim" class="card__name" alt="Titre du stream/Vod"></p>
+                <p id="stream-game_colas_bim" class="card__des" alt="Jeu"></p>
+                <ul class="social-icons">
+                    <li><a href="https://www.twitch.tv/colas_bim" target="_blank" alt="Twitch Colas Bim"><i class="fa-brands fa-twitch"></i></a></li>
+                    <li><a href="https://www.youtube.com/COLASBIM" target="_blank" alt="Youtube Colas Bim"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://www.youtube.com/COLASBIMGAMING" target="_blank" alt="Youtube Colas Bim Gaming"><i class="fa-brands icon-youtube_gaming_icon"></i></a></li>
+                </ul>
+                <ul class="social-icons">
+                    <li><a href="https://discord.gg/9J3dcau" target="_blank" alt="Discord Colas Bim"><i class="fa-brands fa-discord"></i></a></li>
+                    <li><a href="https://twitter.com/Colas_bim" target="_blank" alt="Twitter Colas Bim"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/colas_bim/" target="_blank" alt="Instagram Colas Bim"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <label for="rad0" ><i class="fa fa-chevron-left"></i></label>
+            <label for="rad2" ><i class="fa fa-chevron-right"></i></label>
+        </section>
+        <input id="rad2" type="radio" name="rad" alt="Page Deeotoons">
+        <section>
+            <div class="card">
+                <a id="stream-url_deotoons" href="https://www.twitch.tv/deotoons" alt="Twitch/Vod Deotoons" target="_blank"><img src="images/streamIcon/deotoons.png" alt="Image Deotoons" id="stream-profile_deotoons" class="card__image"></a>
+                <p id="stream-title_deotoons" class="card__name" alt="Titre du stream/Vod"></p>
+                <p id="stream-game_deotoons" class="card__des" alt="Jeu"></p>
+                <ul class="social-icons">
+                    <li><a href="https://www.twitch.tv/deotoons" target="_blank" alt="Twitch Deotoons"><i class="fa-brands fa-twitch"></i></a></li>
+                    <li><a href="https://www.youtube.com/deotoons" target="_blank" alt="Youtube Deotoons"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://www.youtube.com/diabo" target="_blank" alt="Youtube Diabo"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+                <ul class="social-icons">
+                    <li><a href="https://twitter.com/deotoons" target="_blank" alt="Twitter Deotoons"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/deotoons/" target="_blank" alt="Instagram Deotoons"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <label for="rad1"><i class="fa fa-chevron-left"></i></label>
+            <label for="rad3"><i class="fa fa-chevron-right"></i></label>
+        </section>
+        <input id="rad3" type="radio" name="rad" alt="Page Féfé">
+        <section>
+            <div class="card">
+                <a id="stream-url_fefegg" href="https://www.twitch.tv/fefegg" alt="Twitch/Vod Féfé" target="_blank"><img src="images/streamIcon/fefegg.png" alt="Image Féfé" id="stream-profile_fefegg" class="card__image"></a>
+                <p id="stream-title_fefegg" class="card__name" alt="Titre du stream/Vod"></p>
+                <p id="stream-game_fefegg" class="card__des" alt="Jeu"></p>
+                <ul class="social-icons">
+                    <li><a href="https://www.twitch.tv/fefegg" target="_blank" alt="Twitch Féfé"><i class="fa-brands fa-twitch"></i></a></li>
+                    <li><a href="https://www.youtube.com/F%C3%A9f%C3%A9GG" target="_blank" alt="Youtube Féfé"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://discord.gg/zdczzYU" target="_blank" alt="Discord Féfé"><i class="fa-brands fa-discord"></i></a></li>
+                </ul>
+                <ul class="social-icons">
+                    <li><a href="https://twitter.com/FelxGG" target="_blank" alt="Twitter Féfé"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/felxgg/" target="_blank" alt="Instagram Féfé"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <label for="rad2"><i class="fa fa-chevron-left"></i></label>
+            <label for="rad4"><i class="fa fa-chevron-right"></i></label>
+        </section>
+        <input id="rad4" type="radio" name="rad" alt="Page KennyStream">
+        <section>
+            <div class="card">
+                <a id="stream-url_kennystream" href="https://www.twitch.tv/kennystream" alt="Twitch/Vod KennyStream" target="_blank"><img src="images/streamIcon/kennystream.png" alt="Image KennyStream" id="stream-profile_kennystream" class="card__image"></a>
+                <p id="stream-title_kennystream" class="card__name" alt="Titre du stream/Vod"></p>
+                <p id="stream-game_kennystream" class="card__des" alt="Jeu"></p>
+                <ul class="social-icons">
+                    <li><a href="https://www.twitch.tv/kennystream" target="_blank" alt="Twitch KennyStream"><i class="fa-brands fa-twitch"></i></a></li>
+                    <li><a href="https://www.youtube.com/kenny" target="_blank" alt="Youtube Kenny"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCX9HgDJFkP0BStDqcqELpNw" target="_blank" alt="Youtube Kenny Replay "><i class="fa-brands icon-youtube_gaming_icon"></i></a></li>
+                </ul>
+                <ul class="social-icons">
+                    <li><a href="https://discord.gg/invite/kenny" target="_blank" alt="Discord KennyStream"><i class="fa-brands fa-discord"></i></a></li>
+                    <li><a href="https://twitter.com/kennystream" target="_blank" alt="Twitter KennyStream"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/kennysurinsta/" target="_blank" alt="Instagram KennyStream"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <label for="rad3" ><i class="fa fa-chevron-left"></i></label>
+            <label for="rad0" ><i class="fa fa-chevron-right"></i></label>
+        </section>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>

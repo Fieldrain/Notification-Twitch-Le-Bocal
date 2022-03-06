@@ -1,0 +1,29 @@
+{
+  "name": "twitchalertfefe-api",
+  "version": "1.0.0",
+  "description": "Api permettant de récupérer le status du stream de Féfé",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Fieldrain/twitchalertfefe-api.git"
+  },
+  "author": "Fieldrain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Fieldrain/twitchalertfefe-api/issues"
+  },
+  "homepage": "https://gitlab.com/Fieldrain/twitchalertfefe-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "object-hash": "^2.2.0",
+    "request": "^2.88.2",
+    "web-push": "^3.4.5",
+    "ws": "^8.2.3"
+  }
+}
